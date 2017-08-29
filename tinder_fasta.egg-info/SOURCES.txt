@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+tinder-fasta/__init__.py
+tinder-fasta/extract_data.py
+tinder_fasta.egg-info/PKG-INFO
+tinder_fasta.egg-info/SOURCES.txt
+tinder_fasta.egg-info/dependency_links.txt
+tinder_fasta.egg-info/requires.txt
+tinder_fasta.egg-info/top_level.txt
