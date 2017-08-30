@@ -95,15 +95,7 @@ def get_files(user_input, glob):
 
 
 # click help to easily build command line tools.
-@click.command(
-    """
-    Take a list of fasta file and match them according some pattern.
-    Usage :
-    tinder-fasta -i inputs/ -g *.fna ICElist.txt
-
-    Can use the stdin instead of file pattern input:
-    tinder-fasta -i inputs/ -g *.fna - < ICElist.txt
-    """)
+@click.command()
 @click.option('--output', '-o', default="outputs/",
               help='output directory, will be created if needed')
 @click.option('--inputs', '-i', default='.',
